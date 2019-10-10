@@ -4,9 +4,9 @@
 // @version      1.0
 // @description  try to take over the world!
 // @author       Flyink13, DarkKeks, TheGorox, mnb3000, S1ROZHA, igoose
-// @match        https://pixel.vkforms.ru/*
-// @downloadURL  https://github.com/igoose1/pixelbot/raw/master/PixelBot.user.js
-// @updateURL    https://github.com/igoose1/pixelbot/raw/master/PixelBot.user.js
+// @match        https://pixel2019.vkforms.ru/*
+// @downloadURL  https://raw.githubusercontent.com/vladko312/shell/master/bot.js
+// @updateURL    https://raw.githubusercontent.com/vladko312/shell/master/bot.js
 // @grant        none
 // ==/UserScript==
 function PixelBot() {
@@ -18,7 +18,7 @@ function PixelBot() {
     }
 
     PixelBot.url = {
-        script: 'https://github.com/igoose1/pixelbot/raw/master/PixelBot.user.js',
+        script: 'https://raw.githubusercontent.com/vladko312/shell/master/bot.js',
         image: 'https://raw.githubusercontent.com/igoose1/pixelbot/master/li7.png'
     };
 
@@ -132,7 +132,7 @@ function PixelBot() {
             PixelBot.setState("Перезагрузил зону защиты. Осталось: " + PixelBot.pixs.length + "px");
         };
         PixelBot.img.src = PixelBot.urlGen.image();
-        PixelBot.img2.src = "https://pixel.vkforms.ru/data/1.bmp?r=" + Math.random();
+        PixelBot.img2.src = "https://pixel2019.vkforms.ru/data/1.bmp?r=" + Math.random();
     };
 
 
